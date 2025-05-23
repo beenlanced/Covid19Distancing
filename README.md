@@ -4,6 +4,7 @@
     <img  alt="Covid Figure" src="./covid_distancing.jpg"/>
 </p>
 
+[source: COVID-19 image](https://www.google.com/imgres?q=covid&imgurl=https%3A%2F%2Ffox2now.com%2Fwp-content%2Fuploads%2Fsites%2F14%2F2020%2F03%2FCHIP-Coronavirus-COVID-19.png%3Fstrip%3D1&imgrefurl=https%3A%2F%2Ffox2now.com%2Fnews%2Fst-louis-covid-19-task-force-reports-more-than-2500-patients-discharged-home%2F&docid=unbELyPWmh7GkM&tbnid=Asdn27nEfrmjYM&vet=12ahUKEwjllvnZ0rqNAxWx4ckDHaFSOmQ4FBAzegQINxAA..i&w=1920&h=1080&hcb=2&itg=1&ved=2ahUKEwjllvnZ0rqNAxWx4ckDHaFSOmQ4FBAzegQINxAA)
 ## Project Description
 
 #### Problem
@@ -112,6 +113,7 @@ I would like to extend my gratitude to all the individuals and organizations who
 
 Specifically, I would like to acknowledge:
 
+- [COVID-19 image used above](https://www.google.com/imgres?q=covid&imgurl=https%3A%2F%2Ffox2now.com%2Fwp-content%2Fuploads%2Fsites%2F14%2F2020%2F03%2FCHIP-Coronavirus-COVID-19.png%3Fstrip%3D1&imgrefurl=https%3A%2F%2Ffox2now.com%2Fnews%2Fst-louis-covid-19-task-force-reports-more-than-2500-patients-discharged-home%2F&docid=unbELyPWmh7GkM&tbnid=Asdn27nEfrmjYM&vet=12ahUKEwjllvnZ0rqNAxWx4ckDHaFSOmQ4FBAzegQINxAA..i&w=1920&h=1080&hcb=2&itg=1&ved=2ahUKEwjllvnZ0rqNAxWx4ckDHaFSOmQ4FBAzegQINxAA)
 - [Micke Green](https://doktormike.gitlab.io/post/covid-19/) - Covid-19 Denmark post inspiring this work for the US
 - [TripleByteBlog](https://triplebyte.com/blog/modeling-infectious-diseases) - Blog posting helping to explain the SIR and SEIR Compartmental Disease Spread models.
 - [U.S. Population Statistics](https://www.macrotrends.net/countries/USA/united-states/population) - U.S. Population Statistics.
