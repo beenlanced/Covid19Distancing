@@ -9,7 +9,7 @@
 
 #### Problem
 
-During an epidemic why does reducing the size of groups matter? Why do we care how many new people we come in contact with.
+During an epidemic why does reducing the size of groups matter? Why do we care about how many new people we come in contact with during the course of day?
 
 #### Why it needs to be addressed
 
@@ -19,9 +19,9 @@ I wanted to understand what was the science behind the number and why was 10 so 
 
 #### Proposed Solution
 
-This repository contains code examples, pdf files, IJulia notebooks, and other general materials related to calculating the rate of infectuous disease spread by mathematically modeling disease spread using differential equations for the World Health Organization's (WHO's) `S`usceptible, `E`xposed, `I`nfectious, and `R`ecovered (SEIR) Epidemic model.
+This repository contains code examples, pdf files, IJulia notebooks, and other general materials related to calculating the rate of infectious disease spread by mathematically modeling disease spread using differential equations from the World Health Organization's (WHO's) `S`usceptible, `E`xposed, `I`nfectious, and `R`ecovered (SEIR) Epidemic model.
 
-Via Julia notebook experimentation, I revealed that reducing the number of contacts to `<10` of the `same` people, aoviding new people especially, and reducing the probability of infection `p` via activities like frequent hand washing, wearing a mask, avoiding eye, nose, and mouth touching are the key levers to contain and reduce the spread of epidemics because they reduce $R_0$, the **Reproduction Number** of a disease, eventually starving the disease.
+Via Julia notebook experimentation, I revealed that reducing the number of contacts to `<10` of the `same` people, avoiding new people especially, and reducing the probability of infection `p` via activities like frequent hand washing, wearing a mask, avoiding eye, nose, and mouth touching were the key levers to contain and reduce the spread of COVID-19 because they reduce $R_0$, the **Reproduction Number** of a disease, eventually starving the disease.
 
 #### Solution Summary
 
@@ -38,7 +38,7 @@ The code and examples are purely for educational purposes. The project's results
 
 ## Getting Started
 
-You will need to use download or clone the notebook in this repo and then install Julia and IJulia.
+You will need to  download or clone the notebook in this repo and then install Julia and IJulia.
 
 ## Installation Steps
 
@@ -66,19 +66,6 @@ This will install the latest stable version of Julia, which can be launched from
 
 Install `IJulia` using instructions [here](https://github.com/JuliaLang/IJulia.jl)
 
-#### Running the Code
-
-To test out the code as is. <br>
-
-1. Run the `julia_ml_2_production_model.ipynb` notebook which will build and save
-   your machine learning binary classifier model `cancer_model_jld`
-
-2. next from a command terminal prompt run `$julia runtest.jl`. This action will
-   retrieve the classifier model, start the genie.jl webserver and allow you from a browser
-   or via `curl` commands to execute REST commands to the server. - for example `curl localhost:8000/sum/2/3?initial_value=10` at the command line
-   will yield the value 15. This is a test to make sure all is working - `curl localhost:8000/predict` will actually run a test case of model prediction
-   using a predefined benign data set of 30 features.
-
 ### Data Sources
 
 Birth and Death Rates for the United States
@@ -87,7 +74,7 @@ Birth and Death Rates for the United States
 https://www.macrotrends.net/countries/USA/united-states/population
 ```
 
-Mitigation Distance and Coronavirus Cases in the US by Date
+Mitigation Distance and Coronavirus Cases in the United States by Date
 
 ```
 https://www.nytimes.com/2020/03/13/science/coronavirus-math-mitigation-distancing.html
